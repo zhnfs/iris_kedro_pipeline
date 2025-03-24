@@ -1,0 +1,2 @@
+[console_scripts]
+kedro-iris = kedro_iris.__main__:main

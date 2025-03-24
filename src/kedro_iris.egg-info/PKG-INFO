@@ -1,3 +1,28 @@
+Metadata-Version: 2.4
+Name: kedro_iris
+Version: 0.1
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: ipython>=8.10
+Requires-Dist: jupyterlab>=3.0
+Requires-Dist: notebook
+Requires-Dist: kedro~=0.19.12
+Provides-Extra: docs
+Requires-Dist: docutils<0.21; extra == "docs"
+Requires-Dist: sphinx<7.3,>=5.3; extra == "docs"
+Requires-Dist: sphinx_rtd_theme==2.0.0; extra == "docs"
+Requires-Dist: nbsphinx==0.8.1; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints==1.20.2; extra == "docs"
+Requires-Dist: sphinx_copybutton==0.5.2; extra == "docs"
+Requires-Dist: ipykernel<7.0,>=5.3; extra == "docs"
+Requires-Dist: Jinja2<3.2.0; extra == "docs"
+Requires-Dist: myst-parser<2.1,>=1.0; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: pytest-cov~=3.0; extra == "dev"
+Requires-Dist: pytest-mock<2.0,>=1.7.1; extra == "dev"
+Requires-Dist: pytest~=7.2; extra == "dev"
+Requires-Dist: ruff~=0.1.8; extra == "dev"
+
 # kedro_iris
 
 [![Powered by Kedro](https://img.shields.io/badge/powered_by-kedro-ffc900?logo=kedro)](https://kedro.org)
